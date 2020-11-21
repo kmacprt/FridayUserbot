@@ -51,10 +51,10 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
             path1 = Path(f.name)
             shortname = path1.stem
             start_assistant(shortname.replace(".py", ""))
-    print("Friday And Assistant Bot Have Been Installed Successfully !")
+    print("KmacGMPRO And Assistant Bot Have Been Installed Successfully !")
 else:
-    print("Friday Has Been Installed Sucessfully !")
-    print("You Can Visit @FridayOT For Any Support Or Doubts")
+    print("KmacGMPRO Has Been Installed Sucessfully !")
+    print("You Can Visit @cyberwordk For Any Support Or Doubts")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
