@@ -29,7 +29,7 @@ if ENV:
             "HASH_TO_TORRENT_API", "https://example.com/torrent/{}"
         )
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "Friday")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "Kmac")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
@@ -142,10 +142,10 @@ if ENV:
         TAG_FEATURE = os.environ.get("TAG_FEATURE", "DISABLE")
         ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/Starkgang/FridayUserbot"
+            "UPSTREAM_REPO", "https://www.cyberwordk.tk"
         )
         ALIVE_IMAGE = os.environ.get(
-            "ALIVE_IMAGE", "https://telegra.ph/file/22535f8051a58af113586.jpg"
+            "ALIVE_IMAGE", "https://1.bp.blogspot.com/-r56UrvtgvhM/X7kHoM5sr-I/AAAAAAAAANg/xLXQW01PBrsFX3I9h4gRWWCCC-ul7Kn0wCLcBGAsYHQ/s512/hiclipart.com.png"
         )
         TESSDATA_PREFIX = os.environ.get(
             "TESSDATA_PREFIX", "./.apt/usr/share/tesseract-ocr/4.00/tessdata"
